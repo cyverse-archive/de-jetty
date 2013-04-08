@@ -1,7 +1,8 @@
 (defproject org.iplantc/iplant-de "1.8-SNAPSHOT"
   :description  "Project for generating discovery environment RPMs."
   :dependencies  [[org.iplantc.de/de-web "gxt3Sandbox-SNAPSHOT" :extension "war"]
-                  [org.mortbay.jetty/jetty-runner "8.1.7.v20120910"]]
+                  [org.mortbay.jetty/jetty-runner "8.1.7.v20120910"]
+                  [com.google.gwt/gwt-user "2.5.0"]]
   :plugins      [[org.iplantc/lein-iplant-rpm "1.4.1-SNAPSHOT"]]
   :iplant-rpm   {:summary      "iPlant Discovery Environment"
                  :provides     "iplant-de"
